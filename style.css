@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#responseBox {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
