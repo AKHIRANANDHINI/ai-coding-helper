@@ -6,17 +6,17 @@
 </head>
 <body>
 
-    <h1>AI Coding Helper 💻</h1>
+<div class="chat-container">
+    <h1>🤖 AI Coding Helper</h1>
 
-    <textarea id="codeInput" placeholder="Paste your code here..."></textarea>
+    <div id="chatBox" class="chat-box"></div>
 
-    <br>
+    <div class="input-area">
+        <textarea id="codeInput" placeholder="Type or paste your code..."></textarea>
+        <button onclick="sendCode()">Send</button>
+    </div>
+</div>
 
-    <button onclick="sendCode()">Explain Code</button>
-
-    <h2>AI Response:</h2>
-    <div id="responseBox"></div>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
